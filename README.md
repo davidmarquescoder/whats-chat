@@ -19,5 +19,5 @@ Configure "PORT" passando a porta que deseja rodar o servidor.
 # Informações adicionais
 Para manter nosso código em execução e a cada modificação, vamos utilizar a funcionalidade "--watch". Poderiamos usar o "nodemon" também, mas para simplificar vamos usar a funcionalidade nativa do node.
 
-## adicione a configuração aos scripts:
+## Adicione a configuração aos scripts:
 - "start": "node --watch src/server.js"
