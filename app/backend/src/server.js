@@ -12,8 +12,6 @@ wss.on('connection', (ws) => {
 
     ws.on('message', (data) => {
         // Enviando a mensagem recebida, para todos os clientes conectados.
-        wss.clients.forEach(
-            (client) => client.send(data.toString())
-            )
+        wss.clients.forEach((client) => client.send(data.toString()))
     })
 })
